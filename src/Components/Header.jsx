@@ -5,7 +5,7 @@ import {AiFillTwitterCircle , AiFillLinkedin , AiFillGithub, AiFillFacebook} fro
 function Header() {
   return (
     <>
-        <div className='text-center p-10'>
+        <div className='text-center p-10 lg:px-80'>
             <h1 className='text-3xl py-2 text-blue-700'>{variable.name}</h1>
             <h2>{variable.job}</h2>
             <p>{variable.description}</p>

@@ -7,7 +7,7 @@ export default function Navbar() {
         <h1 className = "text-xl font-sans" >Syed Asrar</h1>
         <ul className="flex items-center gap-5">
             <li><BsFillMoonStarsFill className="cursor-pointer text-l " /><RiSunLine className='hidden' /></li>
-            <li><a className="bg-gradient-to-l from-blue-300 to-blue-400 text-white px-2 py-1 rounded-md ml-1" href="#">Resume</a></li>
+            <li><a className="bg-gradient-to-l from-black to-gray-400 text-white px-2 py-1 rounded-md ml-1" href="#">Resume</a></li>
         </ul>
     </div>
   )
