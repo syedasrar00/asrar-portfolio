@@ -11,10 +11,10 @@ function Header() {
             <p>{variable.description}</p>
         </div>
         <div className='flex justify-center text-3xl gap-5'>
-            <a href={variable.github}><AiFillGithub /></a>
-            <a href={variable.facebook}><AiFillFacebook /></a>
-            <a href={variable.linkedin}><AiFillLinkedin /></a>
-            <a href={variable.twitter}><AiFillTwitterCircle /></a>
+            <a href={variable.github} target="_blank"><AiFillGithub /></a>
+            <a href={variable.facebook} target="_blank"><AiFillFacebook /></a>
+            <a href={variable.linkedin} target="_blank"><AiFillLinkedin /></a>
+            <a href={variable.twitter} target="_blank"><AiFillTwitterCircle /></a>
         </div>
     </>
   )
