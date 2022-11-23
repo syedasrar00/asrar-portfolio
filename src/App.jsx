@@ -1,4 +1,4 @@
-import Avatar from "./Components/Avatar"
+
 import Header from "./Components/Header"
 import Navbar from "./Components/Navbar"
 import SkillsCard from "./Components/SkillsCard"
@@ -9,7 +9,6 @@ function App() {
     <div className='bg-gradient-to-tr from-white to-cyan-200 min-h-screen'>
       <Navbar />
       <Header />
-      <Avatar />
       <SkillstoOffer />
       <SkillsCard />
     </div>
